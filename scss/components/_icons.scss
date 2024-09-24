@@ -1,0 +1,13 @@
+.icon {
+  fill: var(--color-primary-light);
+  &:hover {
+    fill: var(--color-brand);
+  }
+}
+
+.stars {
+  fill: var(--color-brand);
+  display: flex;
+  gap: 3px;
+  padding-bottom: 15px;
+}

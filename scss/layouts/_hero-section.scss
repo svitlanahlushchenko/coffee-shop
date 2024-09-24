@@ -1,0 +1,20 @@
+.hero-section {
+  background-image: url('../../image/hero-background.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 140px 0;
+  &__container {
+    max-width: 620px;
+  }
+  &__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}
