@@ -207,6 +207,10 @@
   border-radius: 50%;
   padding: 20px;
 }
+.footer__icon:hover {
+  background-color: var(--color-primary-light);
+  fill: var(--color-primary-dark);
+}
 .footer__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,6 +226,10 @@
   font-family: "Poppins";
   font-weight: 500;
   padding: 7px 15px;
+}
+.footer__link:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
 }
 .footer__rights {
   padding: 25px 0px 18px;
