@@ -25,17 +25,6 @@
     margin-bottom: 32px;
     position: relative;
   }
-  &__form-label {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--color-primary-light);
-    gap: 15px;
-    font-weight: 400;
-    top: 15px;
-    left: 25px;
-  }
   &__form-field:focus-within &__form-label {
     display: none;
   }
@@ -48,6 +37,10 @@
       background-color: var(--color-primary-light);
       color: var(--color-primary-dark);
       outline: none;
+    }
+    &::placeholder {
+      font-weight: 400;
+      color: var(--color-primary-light);
     }
   }
 }
